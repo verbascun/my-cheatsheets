@@ -23,28 +23,32 @@
 			<h2>Shortcuts</h2>
 			<section>
 				<dl>
-					<dt>Window</dt>
-					<dd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>n</kbd>-&gt; Open new window</dd>
-					<dd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>t</kbd>-&gt; Open new tab</dd>
-					<dd><kbd>Ctrl</kbd>+<kbd>d</kbd>-&gt; close tab/log out of shell</dd>
+					<dt>Basic</dt>
+					<dd><kbd>h</kbd>-&gt; left</dd>
 				</dl>
 				<dl>
-					<dt>Navigation</dt>
-					<dd><kbd>Ctrl</kbd>+<kbd>a</kbd>-&gt; go to the beginning of the line</dd>
-					<dd><kbd>Ctrl</kbd>+<kbd>e</kbd>-&gt; go to the end of the line</dd>
+					<dt>File</dt>
+					<dd><kbd>gg</kbd>-&gt; beginning</dd>
+					<dd><kbd>G</kbd>-&gt; end</dd>
 				</dl>
 				<dl>
-					<dt>Delete</dt>
-					<dd><kbd>Ctrl</kbd>+<kbd>u</kbd>-&gt; all to the left of the cursor</dd>
-					<dd><kbd>Ctrl</kbd>+<kbd>k</kbd>-&gt; all to the right of the cursor</dd>
-					<dd><kbd>Ctrl</kbd>+<kbd>w</kbd>-&gt; word on the left</dd>
+					<dt>Line</dt>
+					<dd><kbd>$</kbd>-&gt; end of current ddne</dd>
+					<dd><kbd>0</kbd>-&gt; beginning of current ddne</dd>
+					<dd><kbd>nG</kbd>-&gt; go to <var>n</var>-th ddne</dd>
 				</dl>
 				<dl>
-					<dt>Misc</dt>
-					<dd><kbd>Ctrl</kbd>+<kbd>r</kbd>-&gt; view commands history</dd>
+					<dt>Word</dt>
+					<dd><kbd>w</kbd>-&gt; beginning of the next word</dd>
+					<dd><kbd>e</kbd>-&gt; end of the current word</dd>
+					<dd><kbd>b</kbd>-&gt; beginning of the previous word</dd>
+				</dl>
+				<dl>
+
+				<dd> <kbd>Ctrl</kbd>+<kbd>Z</kbd>-&gt; suspend vim/go to backgroung <code>fn</code> to go back</dd>
 				</dl>
 			</section>
-			<h2>Commands</h2>
+			<h2>Editing</h2>
 			<section>
 				<dl>
 					<dt>Delete (cut)</dt>
