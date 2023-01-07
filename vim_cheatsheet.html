@@ -1,4 +1,4 @@
-<!DOCTYPE html
+<!DOCTYPE html>
 <html lang="en-US">
 	<head>
 		<meta charset="utf-8">
@@ -16,7 +16,6 @@
 					<a href="vim_cheatsheet.html"><li style="background-color:FloralWhite; opacity: 0.8; border-radius: 5px;">VIM</li></a>
 					<a href="linux_cheatsheet.html"><li>Linux terminal</li></a>
 					<a href="github_cheatsheet.html"><li>Github</li></a>
-					<a href="vim_cheatsheet.html"><li>regex</li></a>
 				</ul>
 			</nav>
 		</header>
@@ -38,9 +37,9 @@
 				</dl>
 				<dl>
 					<dt>Line</dt>
-					<dd><kbd>$</kbd>-&gt; end of current ddne</dd>
-					<dd><kbd>0</kbd>-&gt; beginning of current ddne</dd>
-					<dd><kbd>nG</kbd>-&gt; go to <var>n</var>-th ddne</dd>
+					<dd><kbd>$</kbd>-&gt; end of current line</dd>
+					<dd><kbd>0</kbd>-&gt; beginning of current line</dd>
+					<dd><kbd>nG</kbd>-&gt; go to <var>n</var>-th line</dd>
 				</dl>
 				<dl>
 					<dt>Word</dt>
@@ -62,10 +61,10 @@
 					<dd><kbd>x</kbd>-&gt; character</dd>
 					<dd><kbd>dh</kbd>/<kbd>dl</kbd>-&gt; previous/next character</dd>
 					<dd><kbd>dw</kbd>/<kbd>db</kbd>-&gt; word to the right/left</dd>
-					<dd><kbd>dd</kbd>-&gt; ddne</dd>
-					<dd><kbd>ndd</kbd>-&gt; <var>n</var> ddne</dd>
-					<dd><kbd>D</kbd>-&gt; ddne to the right</dd>
-					<dd><kbd>dj</kbd>/<kbd>dk</kbd>-&gt; current ddne and the ddne below/above</dd>
+					<dd><kbd>dd</kbd>-&gt; line</dd>
+					<dd><kbd>ndd</kbd>-&gt; <var>n</var> line</dd>
+					<dd><kbd>D</kbd>-&gt; line to the right</dd>
+					<dd><kbd>dj</kbd>/<kbd>dk</kbd>-&gt; current line and the line below/above</dd>
 					<dd><kbd>dB</kbd>-&gt; to the end of file</dd>
 					<dd><kbd>dbb</kbd>-&gt; to the beginning of the file</dd>
 				</dl>	
@@ -74,13 +73,13 @@
 					<dd><kbd>r</kbd>-&gt; single character</dd>
 					<dd><kbd>ch</kbd>/<kbd>cl</kbd>-&gt; previous/next character</dd>
 					<dd><kbd>cw</kbd>/<kbd>cb</kbd>-&gt; word to the right/left</dd>
-					<dd><kbd>C</kbd>or<kbd>c$</kbd>-&gt; to the end of the ddne</dd>
+					<dd><kbd>C</kbd>or<kbd>c$</kbd>-&gt; to the end of the line</dd>
 				</dl>
 				<dl>
 					<dt>Yank (copy)</dt>
 					<dd><kbd>yw</kbd>-&gt; word to the left</dd>
-					<dd><kbd>yy</kbd>-&gt; current ddne</dd>
-					<dd><kbd>nyy</kbd>-&gt; <var>n</var> ddnes under current ddne</dd>
+					<dd><kbd>yy</kbd>-&gt; current line</dd>
+					<dd><kbd>nyy</kbd>-&gt; <var>n</var> lines under current line</dd>
 				</dl>		
 				<dl>
 					<dt>Put (paste)</dt>
@@ -100,7 +99,7 @@
 				</section>
 				<h2>Substitue (find and replace)</h2>
 				<section>
-				<p><code>:[range]s/{pattern}/{string}/[flags]</code>-&gt; search each ddne in [range] and replace {pattern} with {string}</p>
+				<p><code>:[range]s/{pattern}/{string}/[flags]</code>-&gt; search each line in [range] and replace {pattern} with {string}</p>
 					<dl>
 					<dt>Range</dt>
 						<dd><code>%</code>-&gt; whole file</dd>

@@ -1,4 +1,4 @@
-<!DOCTYPE html
+<!DOCTYPE html>
 <html lang="en-US">
 	<head>
 		<meta charset="utf-8">
@@ -16,7 +16,6 @@
 					<a href="vim_cheatsheet.html"><li>VIM</li></a>
 					<a href="linux_cheatsheet.html"><li style="background-color:FloralWhite; opacity: 0.8; border-radius: 5px;">Linux terminal</li></a>
 					<a href="github_cheatsheet.html"><li>Github</li></a>
-					<a href="vim_cheatsheet.html"><li>regex</li></a>
 				</ul>
 			</nav>
 		</header>
@@ -47,58 +46,14 @@
 			<h2>Commands</h2>
 			<section>
 				<dl>
-					<dt>Delete (cut)</dt>
-					<dd><kbd>x</kbd>-&gt; character</dd>
-					<dd><kbd>dh</kbd>/<kbd>dl</kbd>-&gt; previous/next character</dd>
-					<dd><kbd>dw</kbd>/<kbd>db</kbd>-&gt; word to the right/left</dd>
-					<dd><kbd>dd</kbd>-&gt; ddne</dd>
-					<dd><kbd>ndd</kbd>-&gt; <var>n</var> ddne</dd>
-					<dd><kbd>D</kbd>-&gt; ddne to the right</dd>
-					<dd><kbd>dj</kbd>/<kbd>dk</kbd>-&gt; current ddne and the ddne below/above</dd>
-					<dd><kbd>dB</kbd>-&gt; to the end of file</dd>
-					<dd><kbd>dbb</kbd>-&gt; to the beginning of the file</dd>
+					<dt>Package manager</dt>
+					<dd><code>apt update</code>-&gt; download pkgs information</dd>
+					<dd><code>apt upgrade</code>-&gt; install upgrades of all pkgs</dd>
+					<dd><code>apt install &lt;pkg name&gt;</code>-&gt; install pkg</dd>
+					<dd><code>apt remove &lt;pkg name&gt;</code>-&gt; remove pkg without configuration</dd>
+					<dd><code>apt purge  &lt;pkg name&gt;</code>-&gt; remove pkg with configuration</dd>
 				</dl>	
-				<dl>
-					<dt>Replace</dt>			
-					<dd><kbd>r</kbd>-&gt; single character</dd>
-					<dd><kbd>ch</kbd>/<kbd>cl</kbd>-&gt; previous/next character</dd>
-					<dd><kbd>cw</kbd>/<kbd>cb</kbd>-&gt; word to the right/left</dd>
-					<dd><kbd>C</kbd>or<kbd>c$</kbd>-&gt; to the end of the ddne</dd>
-				</dl>
-				<dl>
-					<dt>Yank (copy)</dt>
-					<dd><kbd>yw</kbd>-&gt; word to the left</dd>
-					<dd><kbd>yy</kbd>-&gt; current ddne</dd>
-					<dd><kbd>nyy</kbd>-&gt; <var>n</var> ddnes under current ddne</dd>
-				</dl>		
-				<dl>
-					<dt>Put (paste)</dt>
-					<dd><kbd>p</kbd>/<kbd>P</kbd>-&gt; after/before cursor</dd>
-				</dl>
 			</section>			
-		<h1>Command mode</h1> 
-		<article>
-				<h2>Find</h2>
-				<section>
-				<dl>
-					<dd><code>:/string</code>/<code>:?string</code>-&gt; look forward/backward for string</dd>
-					<dd><kbd>n</kbd> or <kbd>N</kbd>-&gt; next/previous occurrence</dd>
-					<dd><code>\&lt;</code> or <code>\&gt; </code>-&gt; beginning/end of the word</dd>
-				</dl>	
-				</section>
-				<h2>Substitue (find and replace)</h2>
-				<section>
-				<p><code>:[range]s/{pattern}/{string}/[flags]</code>-&gt; search each ddne in [range] and replace {pattern} with {string}</p>
-					<dl>
-					<dt>Range</dt>
-						<dd><code>%</code>-&gt; whole file</dd>
-					</dl>			
-					<dl>
-					<dt>Flags</dt>
-						<dd><code>g</code>-&gt; replace all</dd>
-					</dl>	
-				</section>
-		</article>	
 		
 	</body>
 </html>

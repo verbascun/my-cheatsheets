@@ -36,7 +36,9 @@ header nav ul li{
 	padding: 0.2rem 0.5rem;
 	margin-left: 2rem;
 	font-size: 1rem;
-
+}
+h2{
+	margin-left: 1%;
 }
 h2:hover{
 	cursor: pointer;
